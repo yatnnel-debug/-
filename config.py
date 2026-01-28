@@ -41,7 +41,7 @@ class Config:
     
     # === ADMIN НАСТРОЙКИ ===
     ADMIN_IDS: List[int] = [
-        int(admin_id.strip()) for admin_id in os.getenv("8310332764").split("8310332764")
+        int(admin_id.strip()) for admin_id in os.getenv("","").split("8310332764")
         if admin_id.strip().isdigit()
     ]
     

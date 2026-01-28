@@ -1,0 +1,46 @@
+# GetGems WebApp - Единый файл зависимостей
+# Обновлено: 2024
+
+# Flask и веб-фреймворк
+Flask==2.3.3
+Werkzeug==2.3.7
+Jinja2==3.1.2
+MarkupSafe==2.1.3
+itsdangerous==2.1.2
+click==8.1.7
+blinker==1.6.3
+
+# Telegram интеграция
+aiogram==3.4.1
+telegram-webapp-auth==3.0.3
+telethon==1.34.0
+pyrogram==2.0.106
+tgcrypto==1.2.5
+
+# HTTP клиенты и запросы
+requests==2.31.0
+aiohttp==3.9.1
+aiofiles==23.2.0
+
+# База данных
+sqlite3  # Встроенный в Python
+
+# Конфигурация и переменные окружения
+python-dotenv==1.0.0
+
+# Криптография и безопасность
+cryptg==0.4.0
+pycryptodome==3.19.0
+
+# Утилиты
+asyncio  # Встроенный в Python
+json  # Встроенный в Python
+logging  # Встроенный в Python
+multiprocessing  # Встроенный в Python
+
+# Продакшен сервер
+gunicorn==21.2.0
+
+# Дополнительные утилиты
+urllib3==2.1.0
+certifi==2023.11.17

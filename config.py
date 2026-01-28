@@ -20,10 +20,10 @@ class Config:
     
     # === BOT НАСТРОЙКИ ===
     BOT_TOKEN: str = os.getenv("BOT_TOKEN", os.getenv("GETGEMS_BOT_TOKEN", "8532638123:AAHlC2h2iWMWmG159oQ1yclfnAyED1IFALA"))
-    BOT_USERNAME: str = os.getenv("BOT_USERNAME", "GetGems")
+    BOT_USERNAME: str = os.getenv("BOT_USERNAME", "GetGemsNewRobot")
     
     # === WEB APP НАСТРОЙКИ ===
-    WEBAPP_URL: str = os.getenv("WEBAPP_URL", "https://hyesos.com")
+    WEBAPP_URL: str = os.getenv("WEBAPP_URL", "https://fdsffdgdsfgd.bothost.ru/")
     SECRET_KEY: str = os.getenv("GETGEMS_SECRET_KEY", "30031985Ss")
     
     # === FLASK НАСТРОЙКИ ===
@@ -37,11 +37,11 @@ class Config:
     # === LOGGING НАСТРОЙКИ ===
     LOG_LEVEL: str = os.getenv("LOG_LEVEL", "INFO")
     LOG_GROUP_ID: str = os.getenv("LOG_GROUP_ID", "-3412288534")
-    LOG_CHAT_ID: str = os.getenv("LOG_CHAT_ID", "-3412288534/1401")
+    LOG_CHAT_ID: str = os.getenv("LOG_CHAT_ID", "-3412288534")
     
     # === ADMIN НАСТРОЙКИ ===
     ADMIN_IDS: List[int] = [
-        int(admin_id.strip()) for admin_id in os.getenv("", "").split("8310332764")
+        int(admin_id.strip()) for admin_id in os.getenv("8310332764").split("8310332764")
         if admin_id.strip().isdigit()
     ]
     

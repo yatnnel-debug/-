@@ -22,9 +22,6 @@ requests==2.31.0
 aiohttp==3.9.1
 aiofiles==23.2.0
 
-# База данных
-sqlite3  # Встроенный в Python
-
 # Конфигурация и переменные окружения
 python-dotenv==1.0.0
 

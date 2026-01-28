@@ -29,11 +29,6 @@ python-dotenv==1.0.0
 cryptg==0.4.0
 pycryptodome==3.19.0
 
-# Утилиты
-json  # Встроенный в Python
-logging  # Встроенный в Python
-multiprocessing  # Встроенный в Python
-
 # Продакшен сервер
 gunicorn==21.2.0
 

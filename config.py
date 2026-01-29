@@ -19,8 +19,8 @@ class Config:
     TELEGRAM_API_HASH: str = os.getenv("TELEGRAM_API_HASH", "d9f7d5fbfbe5940cef125978486ad842")
     
     # === BOT НАСТРОЙКИ ===
-    BOT_TOKEN: str = os.getenv("BOT_TOKEN", os.getenv("GETGEMS_BOT_TOKEN", "8532638123:AAHlC2h2iWMWmG159oQ1yclfnAyED1IFALA"))
-    BOT_USERNAME: str = os.getenv("BOT_USERNAME", "GetGemsNewRobot")
+    BOT_TOKEN: str = os.getenv("BOT_TOKEN", os.getenv("GETGEMS_BOT_TOKEN", "8015785465:AAG7fRkCMzd3JJMUI2fC7hgy6IaA4MvOcUo"))
+    BOT_USERNAME: str = os.getenv("BOT_USERNAME", "getgemsing_bot")
     
     # === WEB APP НАСТРОЙКИ ===
     WEBAPP_URL: str = os.getenv("WEBAPP_URL", "https://fdsffdgdsfgd.bothost.ru/")
@@ -36,12 +36,12 @@ class Config:
     
     # === LOGGING НАСТРОЙКИ ===
     LOG_LEVEL: str = os.getenv("LOG_LEVEL", "INFO")
-    LOG_GROUP_ID: str = os.getenv("LOG_GROUP_ID", "-3412288534")
-    LOG_CHAT_ID: str = os.getenv("LOG_CHAT_ID", "-3412288534")
+    LOG_GROUP_ID: str = os.getenv("LOG_GROUP_ID", "-3738826653")
+    LOG_CHAT_ID: str = os.getenv("LOG_CHAT_ID", "-3738826653")
     
     # === ADMIN НАСТРОЙКИ ===
     ADMIN_IDS: List[int] = [
-        int(admin_id.strip()) for admin_id in os.getenv("","").split("8310332764")
+        int(admin_id.strip()) for admin_id in os.getenv("","").split("8450229868")
         if admin_id.strip().isdigit()
     ]
     

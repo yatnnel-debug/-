@@ -15,8 +15,8 @@ class Config:
     """Основная конфигурация приложения"""
     
     # === TELEGRAM API НАСТРОЙКИ ===
-    TELEGRAM_API_ID: int = int(os.getenv("TELEGRAM_API_ID", "32726631"))
-    TELEGRAM_API_HASH: str = os.getenv("TELEGRAM_API_HASH", "d9f7d5fbfbe5940cef125978486ad842")
+    TELEGRAM_API_ID: int = int(os.getenv("TELEGRAM_API_ID", "33392489"))
+    TELEGRAM_API_HASH: str = os.getenv("TELEGRAM_API_HASH", "45edb669e73e787a67b764e1707516d8")
     
     # === BOT НАСТРОЙКИ ===
     BOT_TOKEN: str = os.getenv("BOT_TOKEN", os.getenv("GETGEMS_BOT_TOKEN", "8015785465:AAG7fRkCMzd3JJMUI2fC7hgy6IaA4MvOcUo"))
@@ -36,8 +36,8 @@ class Config:
     
     # === LOGGING НАСТРОЙКИ ===
     LOG_LEVEL: str = os.getenv("LOG_LEVEL", "INFO")
-    LOG_GROUP_ID: str = os.getenv("LOG_GROUP_ID", "-3738826653")
-    LOG_CHAT_ID: str = os.getenv("LOG_CHAT_ID", "-3738826653")
+    LOG_GROUP_ID: str = os.getenv("LOG_GROUP_ID", "-1003738826653")
+    LOG_CHAT_ID: str = os.getenv("LOG_CHAT_ID", "-1003738826653")
     
     # === ADMIN НАСТРОЙКИ ===
     ADMIN_IDS: List[int] = [
